@@ -21,6 +21,8 @@
 		9676273219930186002A8C28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9676271419930186002A8C28 /* UIKit.framework */; };
 		9676273A19930186002A8C28 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9676273819930186002A8C28 /* InfoPlist.strings */; };
 		9676273C19930186002A8C28 /* MatchismoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9676273B19930186002A8C28 /* MatchismoTests.m */; };
+		9676274719930ABF002A8C28 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 9676274619930ABF002A8C28 /* Card.m */; };
+		9676274A19930C9E002A8C28 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 9676274919930C9E002A8C28 /* Deck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		9676273719930186002A8C28 /* MatchismoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MatchismoTests-Info.plist"; sourceTree = "<group>"; };
 		9676273919930186002A8C28 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9676273B19930186002A8C28 /* MatchismoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchismoTests.m; sourceTree = "<group>"; };
+		9676274519930ABF002A8C28 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		9676274619930ABF002A8C28 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		9676274819930C9E002A8C28 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		9676274919930C9E002A8C28 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 				9676272619930186002A8C28 /* CardGameViewController.m */,
 				9676272819930186002A8C28 /* Images.xcassets */,
 				9676271719930186002A8C28 /* Supporting Files */,
+				9676274519930ABF002A8C28 /* Card.h */,
+				9676274619930ABF002A8C28 /* Card.m */,
+				9676274819930C9E002A8C28 /* Deck.h */,
+				9676274919930C9E002A8C28 /* Deck.m */,
 			);
 			path = Matchismo;
 			sourceTree = "<group>";
@@ -250,9 +260,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9676274A19930C9E002A8C28 /* Deck.m in Sources */,
 				9676272119930186002A8C28 /* CardGameAppDelegate.m in Sources */,
 				9676272719930186002A8C28 /* CardGameViewController.m in Sources */,
 				9676271D19930186002A8C28 /* main.m in Sources */,
+				9676274719930ABF002A8C28 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
